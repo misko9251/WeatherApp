@@ -1,0 +1,215 @@
+body{
+    margin: 0;
+    margin-bottom: 5%;
+    font-size: 20px;
+    color: white;
+    font-family: 'Abel', sans-serif;
+    width: 100%;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background: #466368;
+    background: -webkit-linear-gradient(#dd9bd9, #0197da);
+    background:    -moz-linear-gradient(#dd9bd9, #0197da);
+    background:         linear-gradient(#dd9bd9, #0197da);
+}
+
+h3, h1{
+    text-align: center;
+    margin: 0;
+}
+
+.dayOfWeek{
+    font-size:50px;
+    margin-top: 30px;
+}
+
+.logo{
+    margin: 0 auto;
+    width: 50%;
+    margin-top: 10%;
+}
+
+img{
+    width: 60%;
+}
+
+h1{
+    font-size: 50px;
+    margin-top: 5%;
+}
+
+
+
+/* Search Button */
+
+
+.search-button{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    height: 35px;
+    border-radius: 5px;
+    text-align: center;
+}
+button{
+    border: 1px solid black;
+    color: white;
+    border-radius: 5px;
+    background-color: #dd9bd9;
+}
+
+/* Main Temps */
+.high-low{
+    margin-top: 8%;
+    display: flex;
+    justify-content: space-around;
+}
+
+h2, p{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+h2{
+    font-size: 40px;
+}
+
+/* Extra Weather */
+
+.extra{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+
+h5, p{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+/* Weather descrption */
+
+.weather-container{
+    margin-top: 3%;
+    margin-bottom: 0;
+}
+.weather{
+    font-size: 22px;
+}
+
+/* Upcoming Weather */
+
+.upcoming{
+    margin-top: 4%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.twentyfour, .fourtyeight{
+    border: 2px solid white;
+    width: 40%;
+    height: 150px;
+    border-radius: 20px;
+}
+
+.twentyfour h5, .fourtyeight h5{
+    margin-top: 12%;
+    font-size: 20px;
+}
+
+.twentyfour h5 + h2, .fourtyeight h5 + h2{
+    font-size: 15px;
+    margin-top: 3%;
+}
+
+.upcomingForecast{
+    margin-top: 4%;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Adjust at 550 */
+
+@media all and (min-width: 550px){
+    .twentyfour h5, .fourtyeight h5{
+        margin-top: 3%;
+        font-size: 20px;
+    }
+}
+
+
+@media all and (min-width: 630px){
+    .logo{
+        margin: 0 auto;
+        width: 40%;
+        margin-top: 5%;
+    } 
+}
+
+@media all and (min-width: 750px){
+    .logo{
+        margin: 0 auto;
+        width: 30%;
+        margin-top: 5%;
+    } 
+    h1{
+        font-size: 50px;
+        margin-top: 2%;
+    }
+    .search-button{
+        margin-top: 2%;
+        display: flex;
+        justify-content: center;
+    }
+    .twentyfour h5, .fourtyeight h5{
+        margin-top: 3%;
+        font-size: 30px;
+    }
+    .humidity, .high-temp, .low-temp, .weather{
+        font-size: 40px;
+    }
+    .twentyfour, .fourtyeight{
+        border: 2px solid white;
+        width: 40%;
+        height: 210px;
+        border-radius: 20px;
+    }
+}
+
+
+@media all and (min-width: 950px){
+    .logo{
+        margin: 0 auto;
+        width: 20%;
+        margin-top: 2%;
+    } 
+    h1{
+        font-size: 50px;
+        margin-top: 2%;
+    }
+    .search-button{
+        margin-top: 2%;
+        display: flex;
+        justify-content: center;
+        
+    }
+    .high-low{
+        margin-top: 2%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .twentyfour, .fourtyeight{
+        border: 2px solid white;
+        width: 40%;
+        height: 240px;
+        border-radius: 20px;
+    }
+    
+}
+

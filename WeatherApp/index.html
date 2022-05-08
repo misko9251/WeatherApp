@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="main-container">
+        <section>
+            <h3 class="dayOfWeek"></h3>
+            <h3 class="currentDate"></h3>
+            <h3 class="logo"><img src="weather.png.png"></h3>
+        </section>
+        <section>
+            <h1>Current City</h1>
+        </section>
+        <section class="search-button">
+                <input type="number" placeholder="Enter Zip Code" maxlength="5">
+                <button>Search</button>
+        </section>
+        <section class="high-low">
+            <section class="high">
+                <h2 class="real-temp">F°</h2>
+                <p>Temp</p>
+            </section>
+            <section class="low">
+                <h2 class="real-feel">F°</h2>
+                <p>Real Feel</p>
+            </section>
+        </section>
+        <section class="weather-container">
+            <h2 class="weather">CONDITIONS</h2>
+        </section>
+        <section class="extra">
+            <section>
+                <h5 class="humidity">%</h5>
+                <p>Humidity</p>
+            </section>
+            <section>
+                <h5 class="high-temp">F°</h5>
+                <p>High</p>
+            </section>
+            <section>
+                <h5 class="low-temp">F°</h5>
+                <p>Low</p>
+            </section>
+        </section>
+
+        <!-- 24 Hour Weather -->
+        <section class="upcoming">
+            <section class="twentyfour">
+                <h5>24 Hour Forecast</h5>
+                <h2 class="conditionsnextday">CONDITIONS</h2>
+                <section class="upcomingForecast">
+                    <section>
+                        <h5 class="high-twenty-four">F°</h5>
+                        <p>High</p>
+                    </section>
+                    <section>
+                        <h5 class="low-twenty-four">F°</h5>
+                        <p>Low</p>
+                    </section>
+                </section>
+            </section>
+
+            <!-- 48 Hour Weather -->
+            <section class="fourtyeight">
+                <h5>48 Hour Forecast</h5>
+                <h2 class="conditionstwodays">CONDITIONS</h2>
+                <section class="upcomingForecast">
+                    <section>
+                        <h5 class="high-fourty">F°</h5>
+                        <p>High</p>
+                    </section>
+                    <section>
+                        <h5 class="low-fourty">F°</h5>
+                        <p>Low</p>
+                    </section>
+            </section>
+        </section>
+
+    </section>
+    <script src="javascript.js"></script>
+</body>
+</html>
